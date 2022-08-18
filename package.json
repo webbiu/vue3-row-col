@@ -1,0 +1,38 @@
+{
+    "name": "@webbiu/vue3-row-col",
+    "version": "0.0.1",
+    "description": "vue3-row-col",
+    "scripts": {
+        "build": "vite build",
+        "link": "yarn link"
+    },
+    "files": [
+        "dist",
+        "LICENSE",
+        "README.md"
+    ],
+    "main": "./dist/index.js",
+    "module": "./dist/index.esm.js",
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^3.0.1",
+        "@vue/compiler-sfc": "^3.2.37",
+        "sass": "^1.50.1",
+        "vite": "^3.0.3",
+        "vue": "^3.2.37",
+        "vue-utils-plus": "^1.0.2"
+    },
+    "license": "MIT",
+    "author": "iZaiZaiA<https://github.com/iZaiZaiA>",
+    "copyright": "Copyright © 2022 iZaiZaiA And @webbiu/vue3-row-col",
+    "homepage": "https://github.com/webbiu/vue3-row-col",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/webbiu/vue3-row-col"
+    },
+    "keywords": [
+        "vue3-row-col",
+        "webbiu",
+        "component library",
+        "vue3"
+    ]
+}

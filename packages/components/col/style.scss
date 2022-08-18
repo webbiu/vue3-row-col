@@ -1,0 +1,13 @@
+.web-biu-col {
+    @for $i from 1 through 12 {
+        &.web-biu-col-#{$i} {
+            width: calc(100% / 12 * #{$i});
+        }
+    }
+
+    @for $i from 1 through 24 {
+        &.web-biu-col-lg-#{$i} {
+            width: calc(100% / 24 * #{$i});
+        }
+    }
+}

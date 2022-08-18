@@ -1,0 +1,25 @@
+.web-biu-row {
+    display: flex;
+    flex-wrap: wrap;
+
+    &.web-biu-align-start {
+        justify-content: start;
+    }
+
+    &.web-biu-align-center {
+        justify-content: center;
+    }
+
+    &.web-biu-align-end {
+        justify-content: flex-end;
+    }
+
+    &.web-biu-align-space-between {
+        justify-content: space-between;
+    }
+
+    &.web-biu-align-space-around {
+        justify-content: space-around;
+    }
+}
+
