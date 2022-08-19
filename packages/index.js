@@ -3,6 +3,8 @@
  * iZaiZaiA 2022-08-18 21:30
  **/
 
+import "./style/index.scss";
+
 export { default } from './register/preset'
 
 export { default as setupInstall } from './register/install'

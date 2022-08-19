@@ -49,7 +49,3 @@ function setStyleValue(spacing) {
     styleVal.value = setRowSpace(spacing,'margin')
 }
 </script>
-
-<style lang="scss" scoped>
-@import 'style.scss';
-</style>
